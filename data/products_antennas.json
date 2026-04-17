@@ -1,0 +1,47 @@
+[
+ {
+   "model": "ACR120120-G",
+   "name": "120圆极化天线",
+   "gain": "6dBi",
+   "beam_width": "90°",
+   "polarization": "圆极化",
+   "dimensions": "127*127*16mm",
+   "connector": "SMA公头",
+   "mounting": "磁吸/挂耳",
+   "scenarios": ["中置柜", "变压器"],
+   "status": "已量产，热销中"
+ },
+ {
+   "model": "ACR21185",
+   "name": "双核天线",
+   "gain": "5dBi",
+   "beam_width": "120°",
+   "polarization": "圆极化",
+   "dimensions": "227*87*15mm",
+   "connector": "SMA公头",
+   "mounting": "磁吸/螺丝",
+   "scenarios": ["环网柜"],
+   "status": "已量产，热销中"
+ },
+ {
+   "model": "ACR260260-C",
+   "name": "260圆极化天线",
+   "gain": "9dBi",
+   "beam_width": "70°",
+   "polarization": "圆极化",
+   "dimensions": "260*260*30mm",
+   "connector": "SMA公头",
+   "mounting": "磁吸/抱箍",
+   "scenarios": ["变压器", "电解槽"],
+   "status": "研发中"
+ },
+ {
+   "model": "AXP130130",
+   "name": "130交叉极化天线",
+   "gain": "5dBi",
+   "polarization": "交叉极化",
+   "dimensions": "130*130*20mm",
+   "scenarios": ["中置柜"],
+   "status": "样机发布"
+ }
+]

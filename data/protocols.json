@@ -1,0 +1,22 @@
+{
+ "modbus_rtu": {
+  "default_baud": 9600,
+  "data_bits": 8,
+  "stop_bits": 1,
+  "parity": "无校验",
+  "frame": "Len + Adr + Cmd + Data[] + CRC16",
+  "crc_poly": "0x8408",
+  "preset": "0xFFFF"
+ },
+ "sel_sense": {
+  "cmd": "0x17",
+  "description": "读温指令",
+  "LTU3_params": {"SelTarget": "0x07", "SelAction": "0x04"},
+  "LAU1_params": {"SelTarget": "0x06", "SelAction": "0x00"}
+ },
+ "temp_calc": {
+  "formula": "温度(℃) = 11109.6 / (24 + (D2 + Δ1) / 375.3) - 290",
+  "calibration_addr": "USER 0x08",
+  "validation": "HEADER=0xF, SEN_DATA[23:19]=00100b"
+ }
+}

@@ -1,0 +1,26 @@
+[
+ {
+   "model": "RG58",
+   "loss_per_meter": "0.5dB",
+   "max_length": "<10米",
+   "diameter": "5mm",
+   "temp_range": "-25~80℃",
+   "features": "高性价比"
+ },
+ {
+   "model": "RG316",
+   "loss_per_meter": "0.9dB",
+   "max_length": "<5米",
+   "diameter": "2.5mm",
+   "temp_range": "-55~200℃",
+   "features": "线径小，耐高温"
+ },
+ {
+   "model": "RG402",
+   "loss_per_meter": "0.38dB",
+   "max_length": "<12米",
+   "diameter": "3.5mm",
+   "temp_range": "-55~125℃",
+   "features": "低损耗，半柔性"
+ }
+]

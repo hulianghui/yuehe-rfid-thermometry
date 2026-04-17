@@ -1,0 +1,55 @@
+[
+ {
+   "model": "YH0204F",
+   "name": "四通道国产化采集器",
+   "channels": 4,
+   "max_sensors": 96,
+   "tx_power": "≤33dBm",
+   "interfaces": ["RS485", "RS232", "网口"],
+   "protocols": ["Modbus RTU", "Modbus TCP"],
+   "power": "DC12/24V",
+   "dimensions": "140*115*30mm",
+   "ip": "IP45",
+   "scenarios": ["环网柜", "中置柜", "箱变"],
+   "status": "已量产"
+ },
+ {
+   "model": "YH0108E",
+   "name": "八通道高性能采集器",
+   "channels": 8,
+   "max_sensors": 96,
+   "tx_power": "≤33dBm",
+   "interfaces": ["RS485"],
+   "protocols": ["Modbus RTU"],
+   "power": "DC12/24V",
+   "dimensions": "179*124*26mm",
+   "ip": "IP45",
+   "scenarios": ["环网柜", "中置柜", "箱变"],
+   "status": "已量产"
+ },
+ {
+   "model": "YH0700",
+   "name": "便携式手持终端",
+   "channels": 1,
+   "max_sensors": 5000,
+   "tx_power": "≤33dBm",
+   "interfaces": ["4G", "Wifi"],
+   "protocols": ["MQTT"],
+   "power": "内置锂电",
+   "dimensions": "166*79*31mm",
+   "ip": "IP45",
+   "scenarios": ["电缆井", "巡检"],
+   "status": "已量产"
+ },
+ {
+   "model": "YHR01",
+   "name": "级联式采集器",
+   "channels": 1,
+   "max_sensors": 96,
+   "tx_power": "≤30dBm",
+   "interfaces": ["RS485"],
+   "ip": "IP65",
+   "scenarios": ["密集母线槽"],
+   "status": "样机发布"
+ }
+]

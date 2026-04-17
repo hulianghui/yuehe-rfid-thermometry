@@ -1,0 +1,11 @@
+{
+ "antenna_clearance": "天线前方保留0.5m菲涅尔区，避免金属反射",
+ "rssi_threshold": ">-65dBm极强，-65~-75良好，<-75临界",
+ "cable_loss": {
+  "RG58": "0.5dB/m, ≤10m",
+  "RG316": "0.9dB/m, ≤5m",
+  "RG402": "0.38dB/m, ≤12m"
+ },
+ "tag_on_busbar": "标签垂直于铜排长边以减小涡流",
+ "multi_reader": "多台采集器同柜需启用跳频或错时工作"
+}

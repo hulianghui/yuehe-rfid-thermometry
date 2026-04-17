@@ -1,0 +1,44 @@
+[
+ {
+   "scenario": "中置柜",
+   "sensors": ["TSC130904C-K33", "TSC303005-C33"],
+   "readers": ["YH0204F", "YH0108E"],
+   "antennas": ["ACR120120-G", "AXP130130"],
+   "display": "4.3寸仪表",
+   "protocol": "Modbus RTU/61850",
+   "status": "已量产"
+ },
+ {
+   "scenario": "环网柜",
+   "sensors": ["TSC100503X-L33X2", "TSC130904C-33"],
+   "readers": ["YH0204F", "YH0108E"],
+   "antennas": ["ACR21185"],
+   "display": "4.3寸仪表",
+   "status": "已量产"
+ },
+ {
+   "scenario": "新能源箱变",
+   "sensors": ["TSC303005-C33"],
+   "readers": ["YH0204F"],
+   "antennas": ["ACR120120-G", "ACR260260-C"],
+   "display": "4.3寸仪表",
+   "edge": "导轨式网关",
+   "status": "已量产"
+ },
+ {
+   "scenario": "密集母线槽",
+   "sensors": ["TSP3002-T33"],
+   "readers": ["YHR01"],
+   "antennas": "内置",
+   "display": "10.1寸触屏",
+   "status": "方案发布"
+ },
+ {
+   "scenario": "电缆井",
+   "sensors": ["TSX1602005-33"],
+   "readers": ["YH0700"],
+   "antennas": "手持终端内置",
+   "display": "手持APP",
+   "status": "方案发布"
+ }
+]
